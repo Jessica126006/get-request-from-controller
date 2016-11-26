@@ -11,7 +11,7 @@ class BooksController < ApplicationController
   end
 
   def new
-    @book = Book.new
+    #可写可不写 @book = Book.new
   end
 
   def create

@@ -12,7 +12,7 @@
   <% @books.each do |book| %>
  <tr>
      <td><%= book.id %></td>
-     <td><%= link_to book.name, book  %></td>
+     <td><%= link_to book.name,book  %></td>
      <td><%= book.author %></td>
      <!--此处为什么有个关键字id才可以-->
      <td><%= link_to "编辑" ,edit_book_path( :id => book.id )%></td>
